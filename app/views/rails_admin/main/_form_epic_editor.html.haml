@@ -1,0 +1,19 @@
+#epiceditor
+  = form.text_area field.method_name, field.html_attributes.reverse_merge({ id: 'my-edit-area', class: 'form-control', rows: 20 }).reverse_merge({ value: field.form_value })
+= javascript_include_tag "epiceditor.js"
+:javascript
+  (function($) {
+    var opts = {
+      theme: {
+        base: '#{ asset_url('base/epiceditor.css') }',
+        preview: '#{ asset_url('preview/github.css') }',
+        editor: '#{ asset_url('editor/epic-dark.css') }',
+      },
+      autogrow: {
+        minHeight: 200,
+      },
+      clientSideStorage: false,
+    }
+
+    var editor = new EpicEditor(opts).load();
+  })(jQuery);
