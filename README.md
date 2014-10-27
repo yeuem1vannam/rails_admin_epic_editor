@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/yeuem1vannam/rails_admin_epic_editor.svg?branch=master)](https://travis-ci.org/yeuem1vannam/rails_admin_epic_editor)
 [![Inline docs](http://inch-ci.org/github/yeuem1vannam/rails_admin_epic_editor.png?branch=master)](http://inch-ci.org/github/yeuem1vannam/rails_admin_epic_editor)
 [![Security](https://hakiri.io/github/yeuem1vannam/rails_admin_epic_editor/master.svg)](https://hakiri.io/github/yeuem1vannam/rails_admin_epic_editor/master)
+[![Dependency Status](https://gemnasium.com/yeuem1vannam/rails_admin_epic_editor.svg)](https://gemnasium.com/yeuem1vannam/rails_admin_epic_editor)
 [![License](http://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/yeuem1vannam/rails_admin_epic_editor/blob/master/LICENSE)
 
 License
